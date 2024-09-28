@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63804022C0341E70013915F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63804012C0341E70013915F /* AppDelegate.swift */; };
+		F63804042C0341E70013915F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63804032C0341E70013915F /* SceneDelegate.swift */; };
+		F63804062C0341E70013915F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63804052C0341E70013915F /* ViewController.swift */; };
+		F63804092C0341E70013915F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63804072C0341E70013915F /* Main.storyboard */; };
+		F638040B2C0341E80013915F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F638040A2C0341E80013915F /* Assets.xcassets */; };
+		F638040E2C0341E80013915F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F638040C2C0341E80013915F /* LaunchScreen.storyboard */; };
+		F63804192C0341E80013915F /* Kharcha_buddy3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63804182C0341E80013915F /* Kharcha_buddy3Tests.swift */; };
+		F63804232C0341E80013915F /* Kharcha_buddy3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63804222C0341E80013915F /* Kharcha_buddy3UITests.swift */; };
+		F63804252C0341E80013915F /* Kharcha_buddy3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63804242C0341E80013915F /* Kharcha_buddy3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63804152C0341E80013915F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63803F62C0341E70013915F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63803FD2C0341E70013915F;
+			remoteInfo = "Kharcha buddy3";
+		};
+		F638041F2C0341E80013915F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63803F62C0341E70013915F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63803FD2C0341E70013915F;
+			remoteInfo = "Kharcha buddy3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F63803FE2C0341E70013915F /* Kharcha buddy3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kharcha buddy3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63804012C0341E70013915F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F63804032C0341E70013915F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F63804052C0341E70013915F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63804082C0341E70013915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F638040A2C0341E80013915F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F638040D2C0341E80013915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F638040F2C0341E80013915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63804142C0341E80013915F /* Kharcha buddy3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kharcha buddy3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63804182C0341E80013915F /* Kharcha_buddy3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kharcha_buddy3Tests.swift; sourceTree = "<group>"; };
+		F638041E2C0341E80013915F /* Kharcha buddy3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kharcha buddy3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63804222C0341E80013915F /* Kharcha_buddy3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kharcha_buddy3UITests.swift; sourceTree = "<group>"; };
+		F63804242C0341E80013915F /* Kharcha_buddy3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kharcha_buddy3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63803FB2C0341E70013915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63804112C0341E80013915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F638041B2C0341E80013915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63803F52C0341E70013915F = {
+			isa = PBXGroup;
+			children = (
+				F63804002C0341E70013915F /* Kharcha buddy3 */,
+				F63804172C0341E80013915F /* Kharcha buddy3Tests */,
+				F63804212C0341E80013915F /* Kharcha buddy3UITests */,
+				F63803FF2C0341E70013915F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F63803FF2C0341E70013915F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63803FE2C0341E70013915F /* Kharcha buddy3.app */,
+				F63804142C0341E80013915F /* Kharcha buddy3Tests.xctest */,
+				F638041E2C0341E80013915F /* Kharcha buddy3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63804002C0341E70013915F /* Kharcha buddy3 */ = {
+			isa = PBXGroup;
+			children = (
+				F63804012C0341E70013915F /* AppDelegate.swift */,
+				F63804032C0341E70013915F /* SceneDelegate.swift */,
+				F63804052C0341E70013915F /* ViewController.swift */,
+				F63804072C0341E70013915F /* Main.storyboard */,
+				F638040A2C0341E80013915F /* Assets.xcassets */,
+				F638040C2C0341E80013915F /* LaunchScreen.storyboard */,
+				F638040F2C0341E80013915F /* Info.plist */,
+			);
+			path = "Kharcha buddy3";
+			sourceTree = "<group>";
+		};
+		F63804172C0341E80013915F /* Kharcha buddy3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F63804182C0341E80013915F /* Kharcha_buddy3Tests.swift */,
+			);
+			path = "Kharcha buddy3Tests";
+			sourceTree = "<group>";
+		};
+		F63804212C0341E80013915F /* Kharcha buddy3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F63804222C0341E80013915F /* Kharcha_buddy3UITests.swift */,
+				F63804242C0341E80013915F /* Kharcha_buddy3UITestsLaunchTests.swift */,
+			);
+			path = "Kharcha buddy3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63803FD2C0341E70013915F /* Kharcha buddy3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63804282C0341E80013915F /* Build configuration list for PBXNativeTarget "Kharcha buddy3" */;
+			buildPhases = (
+				F63803FA2C0341E70013915F /* Sources */,
+				F63803FB2C0341E70013915F /* Frameworks */,
+				F63803FC2C0341E70013915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kharcha buddy3";
+			productName = "Kharcha buddy3";
+			productReference = F63803FE2C0341E70013915F /* Kharcha buddy3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F63804132C0341E80013915F /* Kharcha buddy3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F638042B2C0341E80013915F /* Build configuration list for PBXNativeTarget "Kharcha buddy3Tests" */;
+			buildPhases = (
+				F63804102C0341E80013915F /* Sources */,
+				F63804112C0341E80013915F /* Frameworks */,
+				F63804122C0341E80013915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63804162C0341E80013915F /* PBXTargetDependency */,
+			);
+			name = "Kharcha buddy3Tests";
+			productName = "Kharcha buddy3Tests";
+			productReference = F63804142C0341E80013915F /* Kharcha buddy3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F638041D2C0341E80013915F /* Kharcha buddy3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F638042E2C0341E80013915F /* Build configuration list for PBXNativeTarget "Kharcha buddy3UITests" */;
+			buildPhases = (
+				F638041A2C0341E80013915F /* Sources */,
+				F638041B2C0341E80013915F /* Frameworks */,
+				F638041C2C0341E80013915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63804202C0341E80013915F /* PBXTargetDependency */,
+			);
+			name = "Kharcha buddy3UITests";
+			productName = "Kharcha buddy3UITests";
+			productReference = F638041E2C0341E80013915F /* Kharcha buddy3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63803F62C0341E70013915F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F63803FD2C0341E70013915F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F63804132C0341E80013915F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F63803FD2C0341E70013915F;
+					};
+					F638041D2C0341E80013915F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F63803FD2C0341E70013915F;
+					};
+				};
+			};
+			buildConfigurationList = F63803F92C0341E70013915F /* Build configuration list for PBXProject "Kharcha buddy3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63803F52C0341E70013915F;
+			productRefGroup = F63803FF2C0341E70013915F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63803FD2C0341E70013915F /* Kharcha buddy3 */,
+				F63804132C0341E80013915F /* Kharcha buddy3Tests */,
+				F638041D2C0341E80013915F /* Kharcha buddy3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63803FC2C0341E70013915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F638040E2C0341E80013915F /* LaunchScreen.storyboard in Resources */,
+				F638040B2C0341E80013915F /* Assets.xcassets in Resources */,
+				F63804092C0341E70013915F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63804122C0341E80013915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F638041C2C0341E80013915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63803FA2C0341E70013915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63804062C0341E70013915F /* ViewController.swift in Sources */,
+				F63804022C0341E70013915F /* AppDelegate.swift in Sources */,
+				F63804042C0341E70013915F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63804102C0341E80013915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63804192C0341E80013915F /* Kharcha_buddy3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F638041A2C0341E80013915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63804252C0341E80013915F /* Kharcha_buddy3UITestsLaunchTests.swift in Sources */,
+				F63804232C0341E80013915F /* Kharcha_buddy3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63804162C0341E80013915F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63803FD2C0341E70013915F /* Kharcha buddy3 */;
+			targetProxy = F63804152C0341E80013915F /* PBXContainerItemProxy */;
+		};
+		F63804202C0341E80013915F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63803FD2C0341E70013915F /* Kharcha buddy3 */;
+			targetProxy = F638041F2C0341E80013915F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F63804072C0341E70013915F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63804082C0341E70013915F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F638040C2C0341E80013915F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F638040D2C0341E80013915F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63804262C0341E80013915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F63804272C0341E80013915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63804292C0341E80013915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kharcha buddy3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Kharcha-buddy3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F638042A2C0341E80013915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kharcha buddy3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Kharcha-buddy3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F638042C2C0341E80013915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Kharcha-buddy3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kharcha buddy3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kharcha buddy3";
+			};
+			name = Debug;
+		};
+		F638042D2C0341E80013915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Kharcha-buddy3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kharcha buddy3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kharcha buddy3";
+			};
+			name = Release;
+		};
+		F638042F2C0341E80013915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Kharcha-buddy3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kharcha buddy3";
+			};
+			name = Debug;
+		};
+		F63804302C0341E80013915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Kharcha-buddy3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kharcha buddy3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63803F92C0341E70013915F /* Build configuration list for PBXProject "Kharcha buddy3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63804262C0341E80013915F /* Debug */,
+				F63804272C0341E80013915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63804282C0341E80013915F /* Build configuration list for PBXNativeTarget "Kharcha buddy3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63804292C0341E80013915F /* Debug */,
+				F638042A2C0341E80013915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F638042B2C0341E80013915F /* Build configuration list for PBXNativeTarget "Kharcha buddy3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F638042C2C0341E80013915F /* Debug */,
+				F638042D2C0341E80013915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F638042E2C0341E80013915F /* Build configuration list for PBXNativeTarget "Kharcha buddy3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F638042F2C0341E80013915F /* Debug */,
+				F63804302C0341E80013915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F63803F62C0341E70013915F /* Project object */;
+}

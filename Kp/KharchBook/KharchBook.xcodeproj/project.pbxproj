@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69BEF002C00CD0800965E36 /* KharchBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEEFF2C00CD0800965E36 /* KharchBookApp.swift */; };
+		F69BEF022C00CD0800965E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF012C00CD0800965E36 /* ContentView.swift */; };
+		F69BEF042C00CD0900965E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69BEF032C00CD0900965E36 /* Assets.xcassets */; };
+		F69BEF072C00CD0900965E36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69BEF062C00CD0900965E36 /* Preview Assets.xcassets */; };
+		F69BEF112C00CD0900965E36 /* KharchBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF102C00CD0900965E36 /* KharchBookTests.swift */; };
+		F69BEF1B2C00CD0900965E36 /* KharchBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF1A2C00CD0900965E36 /* KharchBookUITests.swift */; };
+		F69BEF1D2C00CD0900965E36 /* KharchBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF1C2C00CD0900965E36 /* KharchBookUITestsLaunchTests.swift */; };
+		F69BEF2B2C00CEF900965E36 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF2A2C00CEF900965E36 /* Extensions.swift */; };
+		F69BEF2D2C00D14100965E36 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF2C2C00D14100965E36 /* TransactionModel.swift */; };
+		F69BEF2F2C00D1B500965E36 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BEF2E2C00D1B500965E36 /* PreviewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69BEF0D2C00CD0900965E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69BEEF42C00CD0800965E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69BEEFB2C00CD0800965E36;
+			remoteInfo = KharchBook;
+		};
+		F69BEF172C00CD0900965E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69BEEF42C00CD0800965E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69BEEFB2C00CD0800965E36;
+			remoteInfo = KharchBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69BEEFC2C00CD0800965E36 /* KharchBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KharchBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BEEFF2C00CD0800965E36 /* KharchBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchBookApp.swift; sourceTree = "<group>"; };
+		F69BEF012C00CD0800965E36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F69BEF032C00CD0900965E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69BEF062C00CD0900965E36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F69BEF0C2C00CD0900965E36 /* KharchBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KharchBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BEF102C00CD0900965E36 /* KharchBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchBookTests.swift; sourceTree = "<group>"; };
+		F69BEF162C00CD0900965E36 /* KharchBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KharchBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BEF1A2C00CD0900965E36 /* KharchBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchBookUITests.swift; sourceTree = "<group>"; };
+		F69BEF1C2C00CD0900965E36 /* KharchBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F69BEF2A2C00CEF900965E36 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F69BEF2C2C00D14100965E36 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		F69BEF2E2C00D1B500965E36 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69BEEF92C00CD0800965E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BEF092C00CD0900965E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BEF132C00CD0900965E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69BEEF32C00CD0800965E36 = {
+			isa = PBXGroup;
+			children = (
+				F69BEEFE2C00CD0800965E36 /* KharchBook */,
+				F69BEF0F2C00CD0900965E36 /* KharchBookTests */,
+				F69BEF192C00CD0900965E36 /* KharchBookUITests */,
+				F69BEEFD2C00CD0800965E36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69BEEFD2C00CD0800965E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69BEEFC2C00CD0800965E36 /* KharchBook.app */,
+				F69BEF0C2C00CD0900965E36 /* KharchBookTests.xctest */,
+				F69BEF162C00CD0900965E36 /* KharchBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69BEEFE2C00CD0800965E36 /* KharchBook */ = {
+			isa = PBXGroup;
+			children = (
+				F69BEEFF2C00CD0800965E36 /* KharchBookApp.swift */,
+				F69BEF012C00CD0800965E36 /* ContentView.swift */,
+				F69BEF2C2C00D14100965E36 /* TransactionModel.swift */,
+				F69BEF2A2C00CEF900965E36 /* Extensions.swift */,
+				F69BEF032C00CD0900965E36 /* Assets.xcassets */,
+				F69BEF052C00CD0900965E36 /* Preview Content */,
+			);
+			path = KharchBook;
+			sourceTree = "<group>";
+		};
+		F69BEF052C00CD0900965E36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F69BEF062C00CD0900965E36 /* Preview Assets.xcassets */,
+				F69BEF2E2C00D1B500965E36 /* PreviewData.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F69BEF0F2C00CD0900965E36 /* KharchBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69BEF102C00CD0900965E36 /* KharchBookTests.swift */,
+			);
+			path = KharchBookTests;
+			sourceTree = "<group>";
+		};
+		F69BEF192C00CD0900965E36 /* KharchBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69BEF1A2C00CD0900965E36 /* KharchBookUITests.swift */,
+				F69BEF1C2C00CD0900965E36 /* KharchBookUITestsLaunchTests.swift */,
+			);
+			path = KharchBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69BEEFB2C00CD0800965E36 /* KharchBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BEF202C00CD0900965E36 /* Build configuration list for PBXNativeTarget "KharchBook" */;
+			buildPhases = (
+				F69BEEF82C00CD0800965E36 /* Sources */,
+				F69BEEF92C00CD0800965E36 /* Frameworks */,
+				F69BEEFA2C00CD0800965E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KharchBook;
+			productName = KharchBook;
+			productReference = F69BEEFC2C00CD0800965E36 /* KharchBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69BEF0B2C00CD0900965E36 /* KharchBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BEF232C00CD0900965E36 /* Build configuration list for PBXNativeTarget "KharchBookTests" */;
+			buildPhases = (
+				F69BEF082C00CD0900965E36 /* Sources */,
+				F69BEF092C00CD0900965E36 /* Frameworks */,
+				F69BEF0A2C00CD0900965E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69BEF0E2C00CD0900965E36 /* PBXTargetDependency */,
+			);
+			name = KharchBookTests;
+			productName = KharchBookTests;
+			productReference = F69BEF0C2C00CD0900965E36 /* KharchBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69BEF152C00CD0900965E36 /* KharchBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BEF262C00CD0900965E36 /* Build configuration list for PBXNativeTarget "KharchBookUITests" */;
+			buildPhases = (
+				F69BEF122C00CD0900965E36 /* Sources */,
+				F69BEF132C00CD0900965E36 /* Frameworks */,
+				F69BEF142C00CD0900965E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69BEF182C00CD0900965E36 /* PBXTargetDependency */,
+			);
+			name = KharchBookUITests;
+			productName = KharchBookUITests;
+			productReference = F69BEF162C00CD0900965E36 /* KharchBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69BEEF42C00CD0800965E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F69BEEFB2C00CD0800965E36 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F69BEF0B2C00CD0900965E36 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F69BEEFB2C00CD0800965E36;
+					};
+					F69BEF152C00CD0900965E36 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F69BEEFB2C00CD0800965E36;
+					};
+				};
+			};
+			buildConfigurationList = F69BEEF72C00CD0800965E36 /* Build configuration list for PBXProject "KharchBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69BEEF32C00CD0800965E36;
+			productRefGroup = F69BEEFD2C00CD0800965E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69BEEFB2C00CD0800965E36 /* KharchBook */,
+				F69BEF0B2C00CD0900965E36 /* KharchBookTests */,
+				F69BEF152C00CD0900965E36 /* KharchBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69BEEFA2C00CD0800965E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BEF072C00CD0900965E36 /* Preview Assets.xcassets in Resources */,
+				F69BEF042C00CD0900965E36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BEF0A2C00CD0900965E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BEF142C00CD0900965E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69BEEF82C00CD0800965E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BEF2F2C00D1B500965E36 /* PreviewData.swift in Sources */,
+				F69BEF2D2C00D14100965E36 /* TransactionModel.swift in Sources */,
+				F69BEF022C00CD0800965E36 /* ContentView.swift in Sources */,
+				F69BEF2B2C00CEF900965E36 /* Extensions.swift in Sources */,
+				F69BEF002C00CD0800965E36 /* KharchBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BEF082C00CD0900965E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BEF112C00CD0900965E36 /* KharchBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BEF122C00CD0900965E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BEF1D2C00CD0900965E36 /* KharchBookUITestsLaunchTests.swift in Sources */,
+				F69BEF1B2C00CD0900965E36 /* KharchBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69BEF0E2C00CD0900965E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69BEEFB2C00CD0800965E36 /* KharchBook */;
+			targetProxy = F69BEF0D2C00CD0900965E36 /* PBXContainerItemProxy */;
+		};
+		F69BEF182C00CD0900965E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69BEEFB2C00CD0800965E36 /* KharchBook */;
+			targetProxy = F69BEF172C00CD0900965E36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F69BEF1E2C00CD0900965E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69BEF1F2C00CD0900965E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69BEF212C00CD0900965E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KharchBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = n.KharchBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69BEF222C00CD0900965E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KharchBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = n.KharchBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F69BEF242C00CD0900965E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = n.KharchBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KharchBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KharchBook";
+			};
+			name = Debug;
+		};
+		F69BEF252C00CD0900965E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = n.KharchBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KharchBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KharchBook";
+			};
+			name = Release;
+		};
+		F69BEF272C00CD0900965E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = n.KharchBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KharchBook;
+			};
+			name = Debug;
+		};
+		F69BEF282C00CD0900965E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = n.KharchBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KharchBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69BEEF72C00CD0800965E36 /* Build configuration list for PBXProject "KharchBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BEF1E2C00CD0900965E36 /* Debug */,
+				F69BEF1F2C00CD0900965E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BEF202C00CD0900965E36 /* Build configuration list for PBXNativeTarget "KharchBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BEF212C00CD0900965E36 /* Debug */,
+				F69BEF222C00CD0900965E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BEF232C00CD0900965E36 /* Build configuration list for PBXNativeTarget "KharchBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BEF242C00CD0900965E36 /* Debug */,
+				F69BEF252C00CD0900965E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BEF262C00CD0900965E36 /* Build configuration list for PBXNativeTarget "KharchBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BEF272C00CD0900965E36 /* Debug */,
+				F69BEF282C00CD0900965E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69BEEF42C00CD0800965E36 /* Project object */;
+}
